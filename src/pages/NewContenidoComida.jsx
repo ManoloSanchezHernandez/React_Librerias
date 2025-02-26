@@ -31,7 +31,7 @@ export default function NewContenidoComida(props) {
                                 }}
                             >
                                 {/* Nombre de la comida */}
-                                <Typography variant="h6" sx={{ fontWeight: 'bold', marginBottom: '8px' }}>
+                                <Typography variant="h5" sx={{ fontWeight: 'bold', marginBottom: '8px' }}>
                                     {recetadata.strMeal}
                                 </Typography>
         
@@ -40,14 +40,14 @@ export default function NewContenidoComida(props) {
                                     src={recetadata.strMealThumb}
                                     alt={recetadata.strMeal}
                                     style={{
-                                        width: '100%',
+                                        maxWidth: '400px',
                                         borderRadius: '8px',
                                         marginBottom: '12px',
                                     }}
                                 />
         
                                 {/* ID de la comida */}
-                                <Typography variant="body3" sx={{ color: 'text.secondary', marginBottom: '12px' }}>
+                                <Typography variant="body2" sx={{ color: 'text.secondary', marginBottom: '10px' }}>
                                     ID: {recetadata.idMeal}
                                 </Typography>
         
