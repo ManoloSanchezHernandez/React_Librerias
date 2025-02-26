@@ -11,7 +11,7 @@
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
     "@mui/icons-material": "^6.4.3",
-    "@mui/material": "next",
+    "@mui/material": "^7.0.0-alpha.0",
     "react": "latest",
     "react-dom": "latest"
   },
