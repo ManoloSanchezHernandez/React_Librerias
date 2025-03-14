@@ -39,8 +39,8 @@ export default function NewHome() {
         }
     };
 
-React.useEffect(() => {
-    const obtenerdata = async () => {
+    React.useEffect(() => {
+        const obtenerdata = async () => {
             const requestOptions = {
                 method: "GET",
                 redirect: "follow"
@@ -53,16 +53,17 @@ React.useEffect(() => {
             } catch (error) {
                 console.error(error);
             }
-        
-    };
-    obtenerdata()
-  
-  }, []); // Se ejecuta al montar el componente y cada vez que se cambia el textoBuscar
+
+        };
+        obtenerdata()
+
+    }, []); // Se ejecuta al montar el componente y cada vez que se cambia el textoBuscar
 
 
     return (
         <>
-            <h1 style={{ textAlign: 'center', color: "purple" }}>Encuentra tu Platillo Favorito</h1>
+            <h1 style={{ textAlign: 'center', color: "black" }}>Bienvenido!!</h1>
+
             <Grid container justifyContent="center" alignItems="center" sx={{ marginTop: '20px', display: 'flex' }} spacing={2}>
                 <Grid xs={12} md={12} display="flex" justifyContent="center">
                     <Paper

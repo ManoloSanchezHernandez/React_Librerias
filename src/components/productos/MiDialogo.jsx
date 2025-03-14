@@ -34,7 +34,6 @@ export default function MiDialogo(props) {
                 </DialogTitle>
                 <DialogContent>
                     <DialogContentText id="alert-dialog-description">
-
                         <Typography variant='h5'>Titulo: {props.datos.title}</Typography>
                         <Typography variant='h6'>Autor: {props.datos.author}</Typography>
                         <Typography variant='h6'>Categoria: {props.datos.category}</Typography>
